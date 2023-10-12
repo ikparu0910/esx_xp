@@ -3,7 +3,7 @@ CurrentRank = 0
 Leaderboard = nil
 Players = {}
 Player = nil
-UIActive = true
+UIActive = true 
 ESX = nil
 Ready = false
 
