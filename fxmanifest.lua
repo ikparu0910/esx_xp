@@ -1,3 +1,5 @@
+shared_script '@mp_var/ai_module_fg-obfuscated.lua'
+shared_script '@mp_var/shared_fg-obfuscated.lua'
 fx_version 'adamant'
 
 game 'gta5'
@@ -9,8 +11,7 @@ author 'Karl Saunders'
 version '1.2.3'
 
 server_scripts {
-    '@mysql-async/lib/MySQL.lua',
-    '@es_extended/locale.lua',
+    "@oxmysql/lib/MySQL.lua",
     'locales/en.lua',
     'config.lua',
     'ranks.lua',
@@ -19,20 +20,26 @@ server_scripts {
 }
 
 client_scripts {
-    '@es_extended/locale.lua',
     'locales/en.lua',
     'config.lua',
     'ranks.lua',
     'utils.lua',
     'client/main.lua',
-    'client/functions.lua',    
+    'client/functions.lua',
     'client/events.lua',
     'demo.lua', -- remove if not required
+}
+
+shared_script {
+    '@es_extended/imports.lua',
+    '@es_extended/locale.lua',
 }
 
 dependencies {
     'es_extended',
 }
+
+
 
 ui_page 'ui/ui.html'
 

@@ -4,17 +4,17 @@ Leaderboard = nil
 Players = {}
 Player = nil
 UIActive = true 
-ESX = nil
+-- ESX = nil
 Ready = false
 
 Citizen.CreateThread(function()
     -- Wait for ESX
-    while ESX == nil do
-        Citizen.Wait(10)
-        TriggerEvent("esx:getSharedObject", function(esx)
-            ESX = esx
-        end)
-    end
+    -- while ESX == nil do
+    --     Citizen.Wait(10)
+    --     TriggerEvent("esx:getSharedObject", function(esx)
+    --         ESX = esx
+    --     end)
+    -- end
         
     -- Wait for ESX player
     while not ESX.IsPlayerLoaded() do
