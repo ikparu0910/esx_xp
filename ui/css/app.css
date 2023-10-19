@@ -1,6 +1,6 @@
 @font-face {
     font-family: "ChaletComprime";
-    src: url("../fonts/ChaletComprimeCologneSixty.ttf");
+    src: url("../fonts/TiltNeon-Regular.ttf");
 }
 
 body {
@@ -79,7 +79,7 @@ body {
     z-index: 1;
     height: 100%;
     width: 0%;
-    background-color: #2e6eb8;
+    background-color: #33bba3;
 }
 
 .xpm .xpm-inner .xpm-progress.xpm-remove .xpm-progress--bar {
@@ -133,7 +133,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    stroke: #2e6eb8;
+    stroke: #33bba3;
     fill: none;
     stroke-width: 80;
 }
@@ -154,7 +154,7 @@ body {
 }
 
 .xpm .xpm-inner .xpm-rank.pulse div {
-    color: #2e6eb8;
+    color: #33bba3;
 }
 
 .xpm .xpm-inner .xpm-rank.pulse svg {
@@ -171,7 +171,7 @@ body {
 }
 
 .xpm .xpm-inner .xpm-rank.highlight div {
-    color: #2e6eb8;
+    color: #33bba3;
 }
 
 .xpm .xpm-inner .xpm-rank.highlight svg {
@@ -181,8 +181,8 @@ body {
 
 .xpm .xpm-data {
     width: 532px;
-    font-size: 28px;
-    color: #fff;
+    font-size: 1.3vw;
+    color: #33bba3;
     display: -webkit-box;
     display: flex;
     justify-content: space-around;
@@ -356,7 +356,7 @@ body {
     position: relative;
     width: 30px;
     height: 30px;
-    stroke: #2e6eb8;
+    stroke: #33bba3;
     fill: none;
     stroke-width: 80;
     z-index: 2;

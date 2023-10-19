@@ -45,7 +45,7 @@ ui_page 'ui/ui.html'
 
 files {
     'ui/ui.html',
-    'ui/fonts/ChaletComprimeCologneSixty.ttf',
+    'ui/fonts/TiltNeon-Regular.ttf',
     'ui/css/app.css',
     'ui/js/class.xpm.js',
     'ui/js/class.paginator.js',
